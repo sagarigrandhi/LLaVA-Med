@@ -131,7 +131,6 @@ In [llava/eval/eval_multimodal_chat_gpt_score.py (line 55)](llava/eval/eval_mult
 #### 3. Download Images
 
 ```Shell
-wget https://hanoverprod.z21.web.core.windows.net/med_llava/multimodal_chat_eval/llava_med_test_image_urls.jsonl -P data/
 python llava/data/download_images.py \
     --input_path data/llava_med_test_image_urls.jsonl \
     --pmc_output_path data/pmc \
